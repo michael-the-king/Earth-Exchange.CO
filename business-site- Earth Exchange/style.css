@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300;400;700&display=swap');
+
+
+:root {
+    --green: #2ecc71;
+    --blue: #3498db;
+    --red: #e74c3c;
+    --dark: #2c3e50;
+    --light: #f7f7f7;
+    --white: #ffffff;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: var(--light);
+    color: var(--dark);
+}
+header {
+    text-align: center;
+    background-color: #2ecc71;
+    padding: 20px;
+    border-bottom: 3px solid var(--blue);
+}
+
+
+.logo {
+    width: 100px;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.slogan {
+    color: var(--blue);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+
+nav a:hover {
+    color: var(--red);
+}
+
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+section {
+    background: var(--white);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 5px solid var(--green);
+}
+#hero {
+    text-align: center;
+    background: var(--white);
+    border: 2px solid var(--green);
+}
+.btn {
+    display: inline-block;
+    background: var(--red);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.btn:hover {
+    background: #c0392b;
+}
+.steps {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+.steps div {
+    flex: 1;
+    min-width: 200px;
+    background: #f0f9f4;
+    padding: 15px;
+    border-radius: 6px;
+    border-top: 3px solid var(--green);
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background: var(--dark);
+    color: white;
+    padding: 20px;
+}
